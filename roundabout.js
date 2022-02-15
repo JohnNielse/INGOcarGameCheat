@@ -1,5 +1,5 @@
 App.MAX_FPS = 50;
-App.debugMode = false;
+App.debugMode = true;
 
 
 
@@ -19,17 +19,17 @@ var playerRadius;
 var carProperties = {};
 var carRadius;
 var cx, cy;
-var lowPlayerSpeed = 80;
-var highPlayerSpeed = 230;
-var originalPlayerSpeed = 150;
+var lowPlayerSpeed = 500;
+var highPlayerSpeed = 500;
+var originalPlayerSpeed = 500;
 var currentPlayerSpeed = originalPlayerSpeed;
 var playerSize;
 var laneInner = 0.50;
 var laneOuter = 0.85;
-var laps = 9;
+var laps = 90;
 var newLapReady = true;
 var newLapTime = 0;
-var carColideReady = true;
+var carColideReady = false;
 var boostReady = true;
 var changeLaneAngleDiff = 0;
 var finishLine;
